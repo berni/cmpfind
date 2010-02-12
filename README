@@ -1,0 +1,11 @@
+usage: ./cmpfind.rb dir [find-opt]... -- dir [find-opt]...
+
+the program will start the gnu find tool in both directories,
+and print the filesize (for files only) and the filename into 
+temporary files.
+
+the it tries to start a diff program to show the difference
+of the two directoy trees.
+
+simple, eh?
+
